@@ -145,6 +145,7 @@ fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', a
                         "continent": "Continent"}
     )
 
+fig.layout['plot_bgcolor'] = '#273346'
 st.plotly_chart(fig, use_container_width=True)
 
 
