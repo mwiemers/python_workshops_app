@@ -76,16 +76,17 @@ st.markdown(
     """
 )
 
-fig = px.line(
+fig_tiobe = px.line(
     tiobe_history, 
     x='year', 
     y='rank', 
     color='language', 
     title='TIOBE historic data')
 
-fig.update_layout(yaxis_range=[40, 1])
+fig_tiobe.update_layout(yaxis_range=[40, 1])
+fig_tiobe.layout['plot_bgcolor'] = '#0F1116'
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig_tiobe, use_container_width=True)
 
 
 st.markdown(
@@ -110,7 +111,8 @@ st.markdown(
     Python is an open source progamming language, which means that the Python user community can 
     contribute to the development of Python by creating new 'libraries' for specific tasks.
 
-    This dashboard/webapp, for instance, was developed with [streamlit](https://streamlit.io/).
+    This dashboard/webapp, for instance, was developed with [streamlit](https://streamlit.io/). Dashboards 
+    are a great way to summarize the results from a data science/machine learning project.
 
     One of the best tools to develop animated and interactive charts is [plotly](https://plotly.com/) 
     and due to Python's popularity, a plotly can be used through Python as well.
@@ -125,17 +127,17 @@ st.markdown(
 st.code(body=
 """
     fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
-                    range_x=[0, 50000], 
-                    range_y=[22, 90],
-                    title="Gapminder",
-                    hover_data=['country'],
-                    labels={"gdp_pc":"GDP per capita",
-                            "life_exp":"Life Expectancy",
-                            "continent": "Continent"})
+                     range_x=[0, 50000], 
+                     range_y=[22, 90],
+                     title="Gapminder",
+                     hover_data=['country'],
+                     labels={"gdp_pc":"GDP per capita",
+                             "life_exp":"Life Expectancy",
+                             "continent": "Continent"})
 """,
 language='python')
 
-fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
+fig_gap = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
                 range_x=[0, 50000], 
                 range_y=[22, 90],
                 title="Gapminder",
@@ -145,8 +147,8 @@ fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', a
                         "continent": "Continent"}
     )
 
-fig.layout['plot_bgcolor'] = '#273346'
-st.plotly_chart(fig, use_container_width=True)
+fig_gap.layout['plot_bgcolor'] = '#0F1116'
+st.plotly_chart(fig_gap, use_container_width=True)
 
 
 st.markdown(
