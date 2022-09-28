@@ -1,0 +1,7 @@
+numpy==1.22.3
+pandas==1.2.4
+pandas_datareader==0.10.0
+Pillow==9.2.0
+plotly==5.4.0
+requests==2.25.1
+streamlit==1.13.0
