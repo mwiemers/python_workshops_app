@@ -34,9 +34,9 @@ with cols[1]:
 
 st.markdown(
     """
-    This website provides an introduction to Python, how Python compares to R and the Dataquest UI and the available Python courses.
+    This website provides an introduction to the Python workshops at the Digital Skills Lab.
 
-    Please select a page from the sidebar menu where you can find information about
+    Please select a page from the sidebar menu where you can find information about:
     - why Python is such a popular programming language
     - Dataquest, the online learning platform we use for our Python workshops
     - the format of the Python workshops
