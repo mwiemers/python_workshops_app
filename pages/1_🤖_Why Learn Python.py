@@ -126,14 +126,14 @@ st.markdown(
 
 st.code(body=
 """
-    fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
-                     range_x=[0, 50000], 
-                     range_y=[22, 90],
-                     title="Gapminder",
-                     hover_data=['country'],
-                     labels={"gdp_pc":"GDP per capita",
-                             "life_exp":"Life Expectancy",
-                             "continent": "Continent"})
+fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
+                 range_x=[0, 50000], 
+                 range_y=[22, 90],
+                 title="Gapminder",
+                 hover_data=['country'],
+                 labels={"gdp_pc":"GDP per capita",
+                         "life_exp":"Life Expectancy",
+                         "continent": "Continent"})
 """,
 language='python')
 
