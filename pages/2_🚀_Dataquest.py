@@ -3,6 +3,14 @@ import requests
 from PIL import Image
 from io import BytesIO
 
+
+@st.cache
+def load_image(url):
+    response = requests.get(url)
+    image = Image.open(BytesIO(response.content))
+    return image
+
+
 st.set_page_config(
     page_title='Learning Python with Dataquest',
     page_icon="🚀"
@@ -51,7 +59,7 @@ st.markdown("""
 
 """)
 
-response = requests.get('https://www.dropbox.com/s/msustvw138gq1o5/dq_ui.png?raw=1')
-image = Image.open(BytesIO(response.content))
+image_url = 'https://www.dropbox.com/s/msustvw138gq1o5/dq_ui.png?raw=1'
+image = load_image(image_url)
 
 st.image(image, caption='Dataquest UI')
