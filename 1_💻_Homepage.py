@@ -4,6 +4,12 @@ import requests
 from io import BytesIO
 from PIL import Image
 
+@st.cache
+def load_image(url):
+    response = requests.get()
+    image = Image.open(BytesIO(response.content))
+    return image
+
 st.set_page_config(
     page_title='Learning Python at the Digital Skills Lab',
     page_icon="💻"
@@ -23,10 +29,9 @@ st.markdown(
 
 
 cols = st.columns(3)
+image_url = 'https://www.dropbox.com/s/ixpdexahj1h5mjw/python.png?raw=1'
 
-
-response = requests.get('https://www.dropbox.com/s/ixpdexahj1h5mjw/python.png?raw=1')
-image = Image.open(BytesIO(response.content))
+image = load_image(image_url)
 
 with cols[1]:
     st.image(image, caption='Python Logo')
