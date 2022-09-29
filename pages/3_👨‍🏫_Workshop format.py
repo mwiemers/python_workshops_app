@@ -24,7 +24,7 @@ st.markdown("""
         - The answer box on the top of Google's results page
         - [Stackoverflow](https://stackoverflow.com) (for task specific solutions)
         - [RealPython](https://realpython.com) (for topic based tutorials)
-        - [w3schools](htt[s://w3schools.com]) (for short task specific tutorials and examples)
+        - [w3schools](https://w3schools.com]) (for short task specific tutorials and examples)
 
 
 """)
