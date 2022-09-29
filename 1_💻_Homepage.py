@@ -6,7 +6,7 @@ from PIL import Image
 
 @st.cache
 def load_image(url):
-    response = requests.get()
+    response = requests.get(url)
     image = Image.open(BytesIO(response.content))
     return image
 
