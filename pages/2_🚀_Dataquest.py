@@ -13,12 +13,21 @@ st.markdown("""
     ## Learning Python with Dataquest
 
     ### Accessing Dataquest
-    1. Request a coupon to set up your Dataquest licence via [this survey](https://qualtrics.com). The DSL will email you the 
-        coupon within 1-2 days. The first courses on Dataquest from the Introduction to Python skill path are free, but 
-        ensure to request your licence to be able to continue to learn the following courses.
+    To start the online learning on Dataquest, please follow the below steps:
 
-    2. Once you have your received your coupon. Set up your account on [dataquest.io](https://app.dataquest.io/signup) 
-        using your **LSE email address**. **Do not** use your LSE email address and LSE password in combination.        
+    1. [Open the survey](https://lse.eu.qualtrics.com/jfe/form/SV_e9k3I33EGgxe2xg) to request a Dataquest account. 
+       We aim to provide you with access within 1-2 working days.
+    2. Once you have received an email from Dataquest to inform you that you have been granted with access:
+        - Read Dataquest's privacy policy before creating an account.
+        - Please go to the Dataquest website and register your account with **your LSE email address**. **Do not** use your LSE email address and LSE password in combination.
+
+
+    By accessing this course we ask you to note the following:
+    - you are signing up for an external service 
+    - you are entering an agreement with an external provider (not LSE) 
+    - it is your personal account for which you are solely responsible 
+    - any information uploaded may be accessible on the public web 
+    - there are risks associated with entering personal data or infringing copyright law 
     
     ### The Dataquest UI
 

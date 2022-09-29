@@ -115,9 +115,9 @@ st.markdown(
     are a great way to summarize the results from a data science/machine learning project.
 
     One of the best tools to develop animated and interactive charts is [plotly](https://plotly.com/) 
-    and due to Python's popularity, a plotly can be used through Python as well.
+    and due to Python's popularity, a Python implementation (API) of plotly is available as well.
 
-    Below is an example of a beautiful chart, that was created with plotly, using only a few lines of code.
+    Below is an example of an animated chart, that was created with plotly, using only a few lines of code.
 
     Click the **play button** to start the animation!
     """
@@ -158,8 +158,9 @@ st.markdown(
         to be used for all possible use-cases. It is the most popular language for Data Science together 
         with R, but can be applied for all kinds of purposes.
 
-        Python is among the favourite languages for web applications. Below is a simple example of a simple 
-        Finance dashboard that enbales the user to select stocks and plot their data
+        Python is among the favourite languages for web applications. Below is a simple example of an interactive 
+        Finance chart/dashboard that enbales the user to select stocks and plot their data returns for certain time 
+        ranges.
 
         """
     )
