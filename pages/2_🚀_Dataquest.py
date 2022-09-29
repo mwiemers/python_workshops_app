@@ -37,10 +37,10 @@ st.markdown("""
     2. The **learning path** can be changed under 'Change My Path'. For most learners the Data Scientist in Python path covers the 
         fundamentals of programming in Python, data wranling (importing, inspecting, transforming and cleaning data), data visualization and 
         machine learning. If you are not sure where to start, ask a Python trainer to help you choose a career or skill path that best suits
-        your learning goals. The first chapter from the Introduction to Python course also explains the UI and how to write Python code for 
+        your learning goals. An overview of all available courses and learning paths, is available in the [Dataquest course catalogue](https://www.dataquest.io/data-science-courses/).
+        The first chapter from the Introduction to Python course also explains the UI and how to write Python code for 
         the exercises.
 
-    
     3. Once you have completed a specific chapter or course, you can further deepen your understanding, consolidate your 
         learning of the syntax and practice the application of what you have learned so far with the **practice exercises**. Practice exercises are 
         available for most of the chapters from the Introduction to Python, Data visualization and Data Wrangling courses.
