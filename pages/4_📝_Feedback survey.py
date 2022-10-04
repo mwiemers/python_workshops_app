@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 
-st.title("Fill in the survey to let us know your feedback about the Python workshops")
+st.title("Python for Data Science Feedback Survey")
 
 st.markdown(
     """
