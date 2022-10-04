@@ -25,6 +25,7 @@ st.markdown("""
         - [Stackoverflow](https://stackoverflow.com) (for task specific solutions)
         - [RealPython](https://realpython.com) (for topic based tutorials)
         - [w3schools](https://w3schools.com]) (for short task specific tutorials and examples)
+    - Ask one of our Python experts for help
 
 
 """)
