@@ -18,8 +18,8 @@ st.markdown("""
     
     - choose freely what to learn
     - progress much further as when using in-house developed materials
-    - switch between independent online and guided in-person learning depending on their schedule, availability and personal preference
-    - work on a collection of projects provided on Dataquest to further consolidate and deepen their learning which are also a great way to demonstrate their coding skills to employers
+    - switch between independent online and guided in-person learning depending on your schedule, availability and personal preference
+    - work on a collection of projects provided on Dataquest to further consolidate and deepen your learning which is a great way to demonstrate your Python skills to employers
     - download certificates from dataquest and append these to your social media profiles (LinkedIN) to provide evidence of your learning
     
     Each workshop is **two-hours** long, and you will work **with fellow learners**, utilising your **prior experience**, **web searches**, 
