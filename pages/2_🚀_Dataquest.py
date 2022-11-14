@@ -23,7 +23,7 @@ st.markdown("""
     ### Accessing Dataquest
     To start the online learning on Dataquest, please follow the below steps:
 
-    1. [Open the survey](https://lse.eu.qualtrics.com/jfe/form/SV_e9k3I33EGgxe2xg) to request a Dataquest account. 
+    1. [Open the survey](https://lse.eu.qualtrics.com/jfe/form/SV_0rFvbIyjgBcGzdQ) to request a Dataquest account. 
        We aim to provide you with access within 1-2 working days.
     2. Once you have received an email from Dataquest to inform you that you have been granted with access:
         - Read Dataquest's privacy policy before creating an account.
