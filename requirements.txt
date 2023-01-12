@@ -1,6 +1,6 @@
 numpy==1.22.3
 pandas==1.2.4
-yfinance==0.2.3
+yfinance==0.2.0
 Pillow==9.2.0
 plotly==5.4.0
 requests==2.25.1
