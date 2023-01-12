@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import pandas_datareader.data as web
+import yfinance as yf
 from PIL import Image
 import requests
 from io import BytesIO
@@ -173,7 +173,7 @@ dropdown = st.multiselect(
 start = st.date_input('Start', value = pd.to_datetime('2019-01-01'))
 end = st.date_input('End', value = pd.to_datetime('today'))
 
-adj_close = web.DataReader(dropdown, 'yahoo', start, end)['Adj Close']
+adj_close = yf.download(dropdown, start, end)['Adj Close']
 returns = (adj_close.pct_change()+1).cumprod() - 1
 st.write('\n\n Stock Returns')
 st.line_chart(returns)

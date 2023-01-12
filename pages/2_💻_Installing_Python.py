@@ -43,7 +43,7 @@ st.markdown("""
 
 """
 )
-image = load_image('https://www.dropbox.com/s/a49jvvktzu4xizp/managing_environments.svg?raw=1')
+image = load_image('https://www.dropbox.com/s/mm6j9fjoxj7nenf/managing_environments.png?raw=1')
 st.image(image, caption='Managing environments')
 
 st.markdown("""
@@ -87,7 +87,7 @@ st.markdown("""
     how to use conda commands to manage libraries and environments.
 """)
 
-image = load_image('https://www.dropbox.com/s/djz5usz309cbhy8/anaconda_miniconda.svg?raw=1')
+image = load_image('https://www.dropbox.com/s/gs5rhrff7cxdmri/anaconda_miniconda.png?raw=1')
 st.image(image, caption='Anaconda vs Miniconda')
 
 st.markdown("""
