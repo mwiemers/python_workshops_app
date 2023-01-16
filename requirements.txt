@@ -3,5 +3,5 @@ pandas==1.2.4
 yfinance==0.2.4
 Pillow==9.2.0
 plotly==5.4.0
-requests==2.25.1
+requests==2.26.1
 streamlit==1.13.0
