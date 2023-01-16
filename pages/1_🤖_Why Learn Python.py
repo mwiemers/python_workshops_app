@@ -3,9 +3,6 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 import yfinance as yf
-from PIL import Image
-import requests
-from io import BytesIO
 
 st.set_page_config(
     page_title='Learning Python at the Digital Skills Lab',

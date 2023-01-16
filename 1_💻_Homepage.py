@@ -1,6 +1,6 @@
-from ctypes import alignment
-import streamlit as st
 import requests
+import yfinance as yf
+import streamlit as st
 from io import BytesIO
 from PIL import Image
 
