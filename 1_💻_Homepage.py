@@ -16,6 +16,8 @@ st.set_page_config(
 )
 
 st.title("Learning Python at the DSL")
+st.sidebar.success("Select a page")
+
 
 st.markdown(
     """
@@ -42,10 +44,9 @@ st.markdown(
     This website provides an introduction to the Python workshops at the Digital Skills Lab.
 
     Please select a page from the sidebar menu where you can find information about:
-    - why Python is such a popular programming language
-    - Dataquest, the online learning platform we use for our Python workshops
+    - why Python is such a popular programming language and why you should learn it
+    - information on how you can install Python on your personal laptop or PC
     - the format of the Python workshops
-
 
     """)
 
