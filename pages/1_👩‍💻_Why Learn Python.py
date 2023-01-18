@@ -152,7 +152,7 @@ def main(dropdown_values):
     end = st.date_input('End', value = pd.to_datetime('today'))
 
     adj_close = yf.download(dropdown, start, end)['Adj Close']
-    returns = (adj_close.pct_change()+1).cumprod()*100 - 1
+    returns = (adj_close.pct_change()+1).cumprod()*100 - 100
     st.write('\n\n Stock Returns %')
     st.line_chart(returns)
 
