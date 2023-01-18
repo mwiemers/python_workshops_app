@@ -9,7 +9,7 @@ DROPDOWN_VALUES = ['TSLA', 'MSFT', 'GOOG', 'META', 'NFLX', 'AMZN', 'BTC-USD']
 
 st.set_page_config(
     page_title='Learning Python at the Digital Skills Lab',
-    page_icon="🤖"
+    page_icon="👩‍💻"
 )
 
 def main(dropdown_values):
