@@ -20,7 +20,7 @@ st.markdown("""
     2. Select the Join or create team option on the top right.
     3. Enter the team code zpsyi8f.
 
-    <br>
+      
     To download the jupyter notebooks:
 
     1. Select a channel from the left sidebar inside the DSL-Python-Workshops team. The series are ordered.
