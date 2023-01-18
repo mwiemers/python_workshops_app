@@ -10,7 +10,7 @@ st.title("The Python Workshop Format")
 
 st.markdown("""
 
-    # DSL Python workshops
+    ## DSL Python workshops
 
     Our Python workshops are split into two type of sessions:
     1) Python Introduction
@@ -22,7 +22,7 @@ st.markdown("""
     Each workshop is **two-hours** long, and you will work **with fellow learners**, utilising your **prior experience**, **web searches**, 
     and in-application Help features to find the solutions to real-world problems, with a **Python expert** on hand if you get stuck.
 
-    ## Python Introduction
+    ### Python Introduction
     The Python Introduction workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
     Python Fundamentals:
     - Numerical variables
@@ -30,7 +30,7 @@ st.markdown("""
     - Type casting
     - Lists
 
-    ## Python for Data Science
+    ### Python for Data Science
     Once you have completed the materials from the Python Introduction series or in case you are already familiar with these topics, feel free 
     to move on to the Python for Data Science series where you will learn about more complex fundamental programming concepts and how to 
     use libraries to manipulate and visualize data in Python.

@@ -18,7 +18,7 @@ st.set_page_config(
 
 
 st.markdown("""
-    # Chosing an installation
+    ## Chosing an installation
 
     There are three main options to install Python on your PC:
     1) Python
@@ -27,7 +27,7 @@ st.markdown("""
 
     The main reason why you might want to choose Anaconda or Miniconda, is because of the greater ease with which you can manage environments compared to Python as such.
 
-    ## What are environments and why should you care?
+    ### What are environments and why should you care?
 
     We first need to understand what environments are and why they matter. In programming it is important that you can create separate workspaces called environments to work with a 
     specific collection of libraries. A library is a complex collection of tools (functions and classes) to perform specific tasks like data manipulation, visualization, analysis, 
@@ -48,7 +48,7 @@ st.image(image, caption='Managing environments')
 
 st.markdown("""
 
-    ## Managing libraries and environments with Anaconda vs Python
+    ### Managing libraries and environments with Anaconda vs Python
 
     To solve this problem, we therefore need multiple environments. To work on our data science project, we create a data-science-environment, where we can work with the data wrangling library
     which uses Python version 3.10 and NumPy version 1.2.4. To work on our web app project, we create a web-dev-environment, where we can work with the web development library
@@ -69,9 +69,9 @@ st.markdown("""
 """)
 
 st.markdown("""
-    ## Anaconda vs Miniconda
+    ### Anaconda vs Miniconda
 
-    ### Anaconda
+    #### Anaconda
     Anaconda is a Python distribution, i.e. a software bundle consisting of Python libraries (pandas, numpy, matplotlib and many more) and 
     software to write Python code (Jupyter, Spyder, VS Code,...). At its root stands the conda package and environment manager, which enables you to download Python libraries
     and create separate environments to store libraries in. It is important to understand the distinction between the conda package manager and the Anaconda distribution 
@@ -81,7 +81,7 @@ st.markdown("""
     Jupyter Lab and Juypter Notebooks and maybe even VS Code to write your Python scripts. You also will have a large collection of libraries ready to start working with Python 
     from the start.
 
-    ### Miniconda
+    #### Miniconda
     If you want a leaner setup and know which software you want to use to write code, you might want to opt for Miniconda instead. Miniconda only installs conda which comes 
     with a base Python environment that has no additional libraries for data science pre-installed. See the next sections on IDE's we recommend to write Python code and 
     how to use conda commands to manage libraries and environments.
@@ -91,11 +91,11 @@ image = load_image('https://www.dropbox.com/s/gs5rhrff7cxdmri/anaconda_miniconda
 st.image(image, caption='Anaconda vs Miniconda')
 
 st.markdown("""
-    ## Best Python Data Science IDE's
+    ### Best Python Data Science IDE's
 
     All of these IDE's support conda environments.
 
-    ### Jupyter Lab/Notebooks
+    #### Jupyter Lab/Notebooks
     Jupyter Lab and Notebooks is a web application running in your browser. That means, you will work with these apps in a browser tab. While a classical programming script is nothing 
     more than a plain text file, jupyter notebooks are much more than that. A notebook can contain sections for text, images and code and plots. The text sections can be formatted 
     with markdown or html code to improve their appearance. Once you got to know how to use them, you will find that notebooks offer a very convenient way to write reports 
@@ -104,12 +104,12 @@ st.markdown("""
     The main difference between Jupyter Notebook and Jupyter Lab is that the latter is more powerful and can be customized in many ways. In addition, in jupyter labs you can easily 
     navigate your folders and select files in the side pane and have multiple notebooks open in the same browser tab.
 
-    ### VS Code
+    #### VS Code
     Although technically not a full-fledged IDE, VS code offers many tools that make it a great choice to write Python code and Jupyter Notebooks. It requires a bit of setting up
     though to be able to use it with Python and jupyter notebooks. The main advantages over Jupyter Lab is the fact that if offers a code editor to edit normal Python scripts, 
     which jupyter lab does not provide at the moment and can be used to write code in many languages.
 
-    ### DataSpell
+    #### DataSpell
     DataSpell is IDE specifically designed for Data Science. While it is very similar in its capabilities to VS Code its looks and features are somewhat more polished and work 
     more seamless. Since you can get a free licence as a student or teacher, you might want to give it a try. But be aware that you will have to pay for it once you are no longer 
     a student and the price tag is quite significant.

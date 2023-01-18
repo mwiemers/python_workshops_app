@@ -6,11 +6,11 @@ st.set_page_config(
     page_icon='📁'
 )
 
-st.title("The Python Workshop Format")
+st.title("Accessing and opening Jupyter Notebooks")
 
 st.markdown("""
 
-    # Access to Jupyter Notebooks
+    ## Access to Jupyter Notebooks
 
     The Jupyter Notebooks can be accessed on Teams from the DSL-Python-Workshops team.
 
@@ -29,7 +29,7 @@ st.markdown("""
     4. Please download the notebook in a folder on the H-drive. This is your personal shared drive, which is 
        accessible from every PC on campus.
 
-    # Open jupyter notebooks
+    ## Open jupyter notebooks
 
     To open a jupyter notebook, you will need to launch the jupyter lab app.
 
