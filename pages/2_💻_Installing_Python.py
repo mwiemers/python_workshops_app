@@ -87,6 +87,66 @@ st.markdown("""
     how to use conda commands to manage libraries and environments.
 """)
 
+st.markdown("""
+    ### Installing Python using Miniconda
+
+    #### Installing Miniconda
+    1. Download the Miniconda installer from [conda.io](https://docs.conda.io/en/latest/miniconda.html) and select your operating system.
+    2. Run the installer
+
+    #### Create a virtual environment with conda
+    1. Open the command prompt (Windows) or terminal (Mac)
+    2. Create a virtual environment for your data science projects. Specify the name after the --name flag.
+    ```
+    conda create --name data-science
+    ```
+    3. Activate the environment  
+    Unless you switch to an environment, the base environment will be active. Use this command to switch to the an environment named data-science.
+    ```
+    conda activate data-science
+    ```
+    4. Install jupyter, jupyterlab and notebook  
+    If you are creating a new environment, you need to also install jupyter in it, otherwise you will not be able to write jupyter notebooks inside the specific environment.
+    Make sure you have the correct environment active before running the install command.
+    ```
+    conda install notebook jupyterlab
+    ```
+
+    To enable extensions in jupyter lab, you also need to install node.js
+    ```
+    conda install -c conda-forge nodejs
+    ```
+
+    #### Installing packages
+    Installing a specific version of pandas  
+    ```
+    conda install pandas=1.4
+    ```
+
+    Installing pandas from the conda-forge channel  
+    You can think of a channel as a separate website from where to download libraries. Some libraries are only available from certain 
+    channels. You can specify the channel to look for the library, using the -c flag followed by the channel name, which is conda-forge in this case.
+    ```
+    conda install -c conda-forge pandas
+    ```
+
+    #### Installing VS Code
+    1. Download the installer for your operating system from https://code.visualstudio.com/download
+    2. Run the installer
+    3. Open VS Code
+    4. Install the Python and Jupyter extensions
+        a. VS Code has a sidebar menu on the left, from where you can access the extensions, click on the extensions symbol
+        b. In the search bar enter Python, select the Python extension and install it
+        c. Search for Jupyter, select the Jupyter extension and install it
+    5. To open a Jupyter notebook, use the Ctrl+Shift+P shortcut and select **Create: New Jupyter Notebook**
+    6. In the top right corner of the notebook is a small cell which enables you to select your environment. You will need to select the 
+    environment that you set up earlier to work with jupyter notebooks and have access to your libraries
+    
+    See this [tutorial](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) from the VS Code website for more information 
+    on how to work with jupyter notebooks in VS Code.
+""")
+
+
 image = load_image('https://www.dropbox.com/s/gs5rhrff7cxdmri/anaconda_miniconda.png?raw=1')
 st.image(image, caption='Anaconda vs Miniconda')
 
@@ -121,18 +181,19 @@ st.markdown("""
 
     ### Installing libraries
 
-    **Installing the pandas library.**
-
+    #### Installing the pandas library
+    Installing a specific version of pandas  
     ```
     conda install pandas
     ```
 
-    **Installing a specific version of pandas.**
+    #### Installing a specific version of pandas
     ```
     conda install pandas=1.4
     ```
 
-    **Installing pandas from the conda-forge channel.** You can think of a channel as a separate website from where to download libraries. Some libraries are only available from certain 
+    #### Installing pandas from the conda-forge channel
+    You can think of a channel as a separate website from where to download libraries. Some libraries are only available from certain 
     channels. You can specify the channel to look for the library, using the -c flag followed by the channel name, which is conda-forge in this case.
     ```
     conda install -c conda-forge pandas
@@ -141,42 +202,44 @@ st.markdown("""
 
     ### Managing environments
 
-    **Creating a new environment with the base Python version**
+    #### Creating a new environment with the base Python version using the name data-science
     ```
     conda create --name data-science
     ```
 
-    **Creating a new environment with a specific Python version**
+    #### Creating a new environment with a specific Python version
     ```
     conda create --name data-science python=3.7
     ```
 
-    **Activating an environment**. Unless you switch to an environment, the base environment will be active. Use this command to switch to the an environment named data-science.
+    #### Activating an environment
+    Unless you switch to an environment, the base environment will be active. Use this command to switch to the an environment named data-science.
     ```
     conda activate data-science
     ```
 
-    **Deactivating an environment**. Deactivating will move you back to the base environment.
+    #### Deactivating an environment
+    Deactivating will move you back to the base environment.
     ```
     conda deactivate
     ```
 
-    **Get an overview of all environments**. The currently active environment is indicatd by the asterisk symbol.
+    #### Get an overview of all environments
+    The currently active environment is indicatd by the asterisk symbol.
     ```
     conda env list
     ```
 
-    **Get an overview of all libraries in the activated environment**. 
+    #### Get an overview of all libraries in the activated environment
     ```
     conda list
     ```
 
-    **Remove an environment**. You might have misconfigured your environment and want to start from scratch. Use this command to remove the data-science environment.
+    #### Remove an environment
+    You might have misconfigured your environment and want to start from scratch. Use this command to remove the data-science environment.
     ```
     conda env remove -n data-science
     ```
-
-
 
     ### Installing Jupyter and Juypter Lab
     If you are creating a new environment, you need to also install jupyter in it, otherwise you will not be able to write jupyter notebooks inside the specific environment.
