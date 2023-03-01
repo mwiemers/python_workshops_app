@@ -139,8 +139,7 @@ st.markdown("""
         2. In the search bar enter Python, select the Python extension and install it
         3. Search for Jupyter, select the Jupyter extension and install it
     5. To open a Jupyter notebook, use the Ctrl+Shift+P shortcut and select **Create: New Jupyter Notebook**
-    6. In the top right corner of the notebook is a small cell which enables you to select your environment. You will need to select the 
-    environment that you set up earlier to work with jupyter notebooks and have access to your libraries
+    6. In the top right corner of the notebook is a small cell which enables you to select your environment. You will need to select the environment that you set up earlier to work with jupyter notebooks and have access to your libraries
     
     See this [tutorial](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) from the VS Code website for more information 
     on how to work with jupyter notebooks in VS Code.
