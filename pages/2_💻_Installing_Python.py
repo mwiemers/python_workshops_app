@@ -135,9 +135,9 @@ st.markdown("""
     2. Run the installer
     3. Open VS Code
     4. Install the Python and Jupyter extensions
-        a. VS Code has a sidebar menu on the left, from where you can access the extensions, click on the extensions symbol
-        b. In the search bar enter Python, select the Python extension and install it
-        c. Search for Jupyter, select the Jupyter extension and install it
+        1. VS Code has a sidebar menu on the left, from where you can access the extensions, click on the extensions symbol
+        2. In the search bar enter Python, select the Python extension and install it
+        3. Search for Jupyter, select the Jupyter extension and install it
     5. To open a Jupyter notebook, use the Ctrl+Shift+P shortcut and select **Create: New Jupyter Notebook**
     6. In the top right corner of the notebook is a small cell which enables you to select your environment. You will need to select the 
     environment that you set up earlier to work with jupyter notebooks and have access to your libraries
