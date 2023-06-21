@@ -22,29 +22,26 @@ st.markdown("""
     Each workshop is **two-hours** long, and you will work **with fellow learners**, utilising your **prior experience**, **web searches**, 
     and in-application Help features to find the solutions to real-world problems, with a **Python expert** on hand if you get stuck.
 
-    ### Python Introduction
+    ### Python Fundamentals
     The Python Introduction workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
     Python Fundamentals:
     - Numerical variables
     - String variables
     - Type casting
     - Lists
-
-    ### Python for Data Science
-    Once you have completed the materials from the Python Introduction series or in case you are already familiar with these topics, feel free 
-    to move on to the Python for Data Science series where you will learn about more complex fundamental programming concepts and how to 
-    use libraries to manipulate and visualize data in Python.
-
-    The Python for Data Science workshops cover the following topics:
-    Python Fundamentals:
-    - List of lists
-    - Functions and modules
     - For loops
     - Conditionals
     - Writing functions
-    - Guided Project: Zoopla Rent Prices
+    - Final Coding Challenges
 
-    Python Data Wrangling:
+    ### Python Data Wrangling and Visualisation
+    Once you have completed the materials from the Python Introduction series or in case you are already familiar with these topics, feel free 
+    to move on to the Python Data Wrangling and Visualisation series where you will learn about more complex fundamental programming concepts and how to 
+    use libraries to manipulate and visualize data in Python.
+
+    The Python Data Wrangling and Visualisation workshops cover the following topics:  
+      
+    Python Data Wrangling
     - NumPy arrays
     - NumPy 2D arrays
     - Pandas Basics
@@ -60,13 +57,11 @@ st.markdown("""
 
     ### What to do when you get stuck:
 
-    On Dataquest you have the option to see the solution for each exercise. We highly recommend to only use that as a last resort when you 
-    have explored all other options. Being able to search effectively online, identify relevant resources and use them to fix your code 
-    are very important skills to enable you to continue to learn independently.
 
     If you get stuck, we recommend to:
 
     - Ask one of our Python experts for help
+    - Ask ChatGPT for help with the tasks
     - Search online (here are a couple of useful resources):
         - The answer box on the top of Google's results page
         - [Stackoverflow](https://stackoverflow.com) (for task specific solutions)
