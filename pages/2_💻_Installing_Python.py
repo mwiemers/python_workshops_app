@@ -5,13 +5,6 @@ from io import BytesIO
 from load_css import local_css
 
 
-@st.cache_resource
-def load_image(url):
-    response = requests.get(url)
-    image = Image.open(BytesIO(response.content))
-    return image
-
-
 st.set_page_config(
     page_title='Installing Python',
     page_icon="💻"
