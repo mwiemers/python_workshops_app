@@ -35,13 +35,13 @@ st.markdown("""
     - Final Coding Challenges
         
     """)
-
-st.download_button(
-    label="Download Python Fundamentals materials as zip file",
-    data="zip",
-    file_name='materials/PF_notebooks.zip',
-    mime='application/x-zip',
-)
+with open("materials/PF_notebooks.zip", "rb") as f:
+    btn = st.download_button(
+        label = "Download Python Fundamentals materials",
+        data = f,
+        file_name = "PF_notebooks.zip",
+        mime = "application/zip"
+        )
 
 st.markdown("""
 
@@ -58,12 +58,13 @@ st.markdown("""
 
 """)
 
-st.download_button(
-    label="Download Python Data Wrangling materials as zip file",
-    data="zip",
-    file_name='materials/PDW_notebooks.zip',
-    mime='application/x-zip',
-)
+with open("materials/PDW_notebooks.zip", "rb") as f:
+    st.download_button(
+        label="Download Python Data Wrangling materials as zip file",
+        data=f,
+        file_name='PDW_notebooks.zip',
+        mime='application/x-zip',
+    )
 
 st.markdown("""
     Python Data Visualization
@@ -72,12 +73,13 @@ st.markdown("""
     - Seaborn and Pandas plots
 """)
 
-st.download_button(
-    label="Download Python Data Visualisation materials as zip file",
-    data="zip",
-    file_name='materials/PDV_notebooks.zip',
-    mime='application/x-zip',
-)
+with open("materials/PDV_notebooks.zip", "rb") as f:
+    st.download_button(
+        label="Download Python Data Visualisation materials as zip file",
+        data=f,
+        file_name='PDV_notebooks.zip',
+        mime='application/x-zip',
+    )
 
 st.markdown("""
 
