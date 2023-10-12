@@ -1,19 +1,13 @@
-import requests
-import yfinance as yf
 import streamlit as st
-from io import BytesIO
-from PIL import Image
+from load_css import local_css
 
-@st.cache
-def load_image(url):
-    response = requests.get(url)
-    image = Image.open(BytesIO(response.content))
-    return image
 
 st.set_page_config(
     page_title='Learning Python at the Digital Skills Lab',
     page_icon="🐍"
 )
+
+local_css("css/style.css")
 
 st.title("Learning Python at the DSL")
 
@@ -22,21 +16,16 @@ st.markdown(
     """
     **Michael Wiemers**  
     Learning Developer (Data Science Tools)  
-    Digital Skills Lab  
-
-    ---
-
     """)
 
+st.image("img/lse_dsl_logo.png", width=400)
+
+st.markdown("---")
 
 cols = st.columns(3)
-image_url = 'https://www.dropbox.com/s/ixpdexahj1h5mjw/python.png?raw=1'
-
-image = load_image(image_url)
 
 with cols[1]:
-    st.image(image, caption='Python Logo')
-
+    st.image("img/python_logo.png", width=150)
 
 st.markdown(
     """
@@ -44,9 +33,9 @@ st.markdown(
 
     Please select a page from the sidebar menu where you can find information about:
     - why Python is such a popular programming language and why you should learn it
-    - information on how you can install Python on your personal laptop or PC
-    - the format of the Python workshops
-    - how to access the Python workshop materials on Teams
+    - how to install Python/Anaconda on your personal laptop (you can skip this if you're using a teaching PC)
+    - the workshop lessons including download links
+    - how to open the workshop lessons on your PC/personal laptop
 
     """)
 

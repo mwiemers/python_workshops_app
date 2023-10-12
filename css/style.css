@@ -1,0 +1,19 @@
+.highlight {
+  border-radius: 0.4rem;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.red {
+  background-color: lightcoral;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+}

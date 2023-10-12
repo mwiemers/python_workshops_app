@@ -1,10 +1,12 @@
 import streamlit as st
-
+from load_css import local_css
 
 st.set_page_config(
     page_title='Python Workshop Format',
     page_icon='👨‍🏫'
 )
+
+local_css("css/style.css")
 
 st.title("The Python Workshop Format")
 
@@ -12,11 +14,7 @@ st.markdown("""
 
     ## DSL Python workshops
 
-    Our Python workshops are split into two type of sessions:
-    1) Python Introduction
-    2) Python for Data Science
-
-    Both of these workshops are open-format, which means that you can choose which topic to work on. It is advised to work through the materials 
+    The Python Fundamentals workshops are open-format, which means that you can choose which topic to work on. It is advised to work through the materials 
     in order unless you are already familiar with a particular topic.
 
     Each workshop is **two-hours** long, and you will work **with fellow learners**, utilising your **prior experience**, **web searches**, 
@@ -32,15 +30,25 @@ st.markdown("""
     - For loops
     - Conditionals
     - Writing functions
+    - Dictionaries
+    - While Loops
     - Final Coding Challenges
+        
+    """)
+
+st.download_button(
+    label="Download Python Fundamentals materials as zip file",
+    data="zip",
+    file_name='materials/PF_notebooks.zip',
+    mime='application/x-zip',
+)
+
+st.markdown("""
 
     ### Python Data Wrangling and Visualisation
     Once you have completed the materials from the Python Introduction series or in case you are already familiar with these topics, feel free 
-    to move on to the Python Data Wrangling and Visualisation series where you will learn about more complex fundamental programming concepts and how to 
-    use libraries to manipulate and visualize data in Python.
-
-    The Python Data Wrangling and Visualisation workshops cover the following topics:  
-      
+    to move on to the Python Data Wrangling and Visualisation materials where you how to use specific libraries to manipulate and visualize data in Python.
+ 
     Python Data Wrangling
     - NumPy arrays
     - NumPy 2D arrays
@@ -48,11 +56,30 @@ st.markdown("""
     - Pandas Indexing
     - Pandas Exploring Data
 
+""")
+
+st.download_button(
+    label="Download Python Data Wrangling materials as zip file",
+    data="zip",
+    file_name='materials/PDW_notebooks.zip',
+    mime='application/x-zip',
+)
+
+st.markdown("""
     Python Data Visualization
     - Line plots with matplotlib
     - Scatter, Bar, Histogram with Matplotlib
     - Seaborn and Pandas plots
+""")
 
+st.download_button(
+    label="Download Python Data Visualisation materials as zip file",
+    data="zip",
+    file_name='materials/PDV_notebooks.zip',
+    mime='application/x-zip',
+)
+
+st.markdown("""
 
 
     ### What to do when you get stuck:
@@ -61,7 +88,6 @@ st.markdown("""
     If you get stuck, we recommend to:
 
     - Ask one of our Python experts for help
-    - Ask ChatGPT for help with the tasks
     - Search online (here are a couple of useful resources):
         - The answer box on the top of Google's results page
         - [Stackoverflow](https://stackoverflow.com) (for task specific solutions)
