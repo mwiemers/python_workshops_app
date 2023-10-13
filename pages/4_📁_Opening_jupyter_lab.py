@@ -24,7 +24,7 @@ st.markdown("""
 
     ## Open Jupyter Lab
     
-    ### On a teaching PC
+    ### On a Teaching PC
     1. Open the Anaconda prompt: Click the Windows key, type "Anaconda Prompt" and hit Enter.
     2. In the Anaconda prompt, type in "H:" and hit Enter. This will change the drive to the H-drive, where the files have been downloaded.
     3. Still in the Anaconda prompt, type in "jupyter lab" and hit Enter. The jupyter lab app will launch in your browser after a few seconds.
