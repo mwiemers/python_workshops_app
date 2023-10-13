@@ -14,15 +14,14 @@ st.markdown("""
 
     ## DSL Python workshops
 
-    The Python Fundamentals workshops are open-format, which means that you can choose which topic to work on. It is advised to work through the materials 
-    in order unless you are already familiar with a particular topic.
-
-    Each workshop is **two-hours** long, and you will work **with fellow learners**, utilising your **prior experience**, **web searches**, 
-    and in-application Help features to find the solutions to real-world problems, with a **Python expert** on hand if you get stuck.
+    - Each workshop is 2 hours long.
+    - You choose which topic to work on. It is advised to work through the materials 
+    in the prescribed order unless you are already familiar with a particular topic.
+    - You will work **with fellow learners**, utilising your **prior experience** and **web searches** to find solutions, with a **Python expert** on hand if you get stuck.
 
     ### Python Fundamentals
-    The Python Introduction workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
-    Python Fundamentals:
+    
+    The Python Fundamentals workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
     - Numerical variables
     - String variables
     - Type casting
@@ -86,16 +85,15 @@ st.markdown("""
 
     ### What to do when you get stuck:
 
-
     If you get stuck, we recommend to:
 
-    - Ask one of our Python experts for help
     - Search online (here are a couple of useful resources):
         - The answer box on the top of Google's results page
         - [Stackoverflow](https://stackoverflow.com) (for task specific solutions)
         - [RealPython](https://realpython.com) (for topic based tutorials)
         - [w3schools](https://w3schools.com]) (for short task specific tutorials and examples)
     - Ask your fellow students
+    - Ask one of our Python experts for help
     
     """
 )
