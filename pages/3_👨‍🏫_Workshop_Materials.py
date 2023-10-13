@@ -45,7 +45,7 @@ with open("materials/PF_notebooks.zip", "rb") as f:
 st.markdown("""
 
     ### Python Data Wrangling and Visualisation
-    Once you have completed the materials from the Python Introduction series or in case you are already familiar with these topics, feel free 
+    Once you have completed the materials from the Python Fundamentals series or in case you are already familiar with these topics, feel free 
     to move on to the Python Data Wrangling and Visualisation materials where you how to use specific libraries to manipulate and visualize data in Python.
  
     Python Data Wrangling

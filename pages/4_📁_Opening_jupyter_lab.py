@@ -14,25 +14,27 @@ st.markdown("""
             
     Before you can open the jupyter notebooks, please ensure that you have extracted the files!
             
-    1. Go to the folder where you downloaded the zip file (presumably your Downloads folder).
+    1. Go to the folder where you downloaded the zip file.
+        - Using a teaching PC: The zip file will have been downloaded to your H: drive.
+        - Using your personal laptop: The zip file will most likely be located in your Downloads folder.
     2. Extracting the zip file.
-        a. Windows: Right-click on the zip file and select extract all.
-        b. Mac: Double-click on the zip file.
+        - Windows: Right-click on the zip file and select extract all.
+        - Mac: Double-click on the zip file.
     3. Change the folder name to something meaningful like 'python_fundamentals'.
 
     ## Open Jupyter Lab
     
-    ### On a teaching PC:
-    1. Open the Anaconda prompt: Click the Windows key, type "Anaconda Prompt" and hit Enter
+    ### On a teaching PC
+    1. Open the Anaconda prompt: Click the Windows key, type "Anaconda Prompt" and hit Enter.
     2. In the Anaconda prompt, type in "H:" and hit Enter. This will change the drive to the H-drive, where the files have been downloaded.
     3. Still in the Anaconda prompt, type in "jupyter lab" and hit Enter. The jupyter lab app will launch in your browser after a few seconds.
     4. In jupyter lab, select the folder from the menu on the left side where you downloaded the notebook.
     5. Double-click on a notebook to open it.        
             
-    ### On your personal laptop:
+    ### On your personal laptop
     1. Open the Anaconda prompt: 
-            a. Windows: Click the Windows key, type "Anaconda Prompt" and hit Enter
-            b. Mac: Use the Cmd+Space shortcut to open the Spotlight Search. Search for "Anaconda Prompt" and hit Enter.
+        - Windows: Click the Windows key, type "Anaconda Prompt" and hit Enter.
+        - Mac: Use the Cmd+Space shortcut to open the Spotlight Search. Search for "Anaconda Prompt" and hit Enter.
     2. In the Anaconda prompt, type in "jupyter lab" and hit Enter. The jupyter lab app will launch in your browser after a few seconds.
     3. In jupyter lab, select the folder from the menu on the left side where you downloaded the notebook.
     4. Double-click on a notebook to open it.        
